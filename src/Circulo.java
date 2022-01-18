@@ -12,7 +12,7 @@ public class Circulo {
  return centroX;
  }
  public double getCircunferencia() {
- return 2 * Math.PI * radio;
+ return 2.1 * Math.PI * radio;
  }
  public void mueve(double deltaX, double deltaY) {
  centroX = centroX + deltaX;
